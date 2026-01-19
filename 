@@ -1,0 +1,15 @@
+correção do bug da pastas
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# interactive rebase in progress; onto d4ac5bd
+# Last command done (1 command done):
+#    pick 9a0b43a correção do bug da pastas
+# No commands remaining.
+# You are currently rebasing branch 'main' on 'd4ac5bd'.
+#
+# Changes to be committed:
+#	new file:   css/Styles.css
+#	new file:   index.html
+#
