@@ -1,12 +1,13 @@
 
 body {
-    background-color:white;
+    background: linear-gradient(135deg, #081F4D, #1E4FA3, #2A4C8A);
     font-family: Montserrat, sans-serif; 
     padding-top: 80px;
 }
 
 html{
     scroll-behavior: smooth;
+   
 
 
 }
@@ -30,7 +31,7 @@ html{
 
 
     .Hamburguers_lista {
-        color: brown;
+        color: white;
         font-family: "Pacifico";
         font-size: 1.8rem;
         font-style: italic;
@@ -38,11 +39,11 @@ html{
         margin-top: 15px;        
         margin-bottom: 4px;     
         text-align: left;
-        background-color: #F5F5DC;
+        background-color: #2A4C8A;
         border-radius: 6px;
     }
     .hamburguers_artesanais{
-        color: brown;
+        color: white;
         font-family: "Pacifico";
         font-size: 1.8rem;
         font-style: italic;
@@ -50,12 +51,12 @@ html{
         margin-top: 15px;        
         margin-bottom: 4px;     
         text-align: left;
-        background-color: #F5F5DC;
+        background-color: #2A4C8A;
         border-radius: 6px;
     }
 
     h2{
-        color:brown;
+        color:white;
         font-family: Montserrat, sans-serif;
         font-size: 0.9rem;
         margin-top: 0;            
@@ -67,13 +68,13 @@ html{
     p{
         margin-top: 0;            
         margin-bottom: 15px;      
-        color:brown;
+        color:white;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 0.6rem;
         text-align: left;
     }
     hr{
-        border-color: brown;
+        border-color: white;
 
     }
 
@@ -90,7 +91,8 @@ html{
         overflow-x: auto;
         
         padding: 10px;
-        background-color: white;
+        background-color: linear-gradient(135deg, #081F4D, #1E4FA3, #2A4C8A);
+
     }
     [id] {
    scroll-margin-top: 120%;
@@ -116,7 +118,7 @@ html{
         background-color: brown;
     }
     .cuscuzes{
-        color: brown;
+        color: white;
         font-family: "Pacifico";
         font-size: 1.8rem;
         font-style: italic;
@@ -124,13 +126,13 @@ html{
         margin-top: 15px;        
         margin-bottom: 4px;     
         text-align: left;
-        background-color: #F5F5DC;
+        background-color: #2A4C8A;
         border-radius: 6px;
 
 
     }
     .title_tapiocas h2{
-        color: brown;
+        color: white;
         font-family: "Pacifico";
         font-size: 1.8rem;
         font-style: italic;
@@ -138,12 +140,12 @@ html{
         margin-top: 15px;        
         margin-bottom: 4px;     
         text-align: left;
-        background-color: #F5F5DC;
+        background-color: #2A4C8A;
         border-radius: 6px;
     }
 
     .title_salgados h2{
-        color: brown;
+        color: white;
         font-family: "Pacifico";
         font-size: 1.8rem;
         font-style: italic;
@@ -151,13 +153,13 @@ html{
         margin-top: 15px;        
         margin-bottom: 4px;     
         text-align: left;
-        background-color: #F5F5DC;
+        background-color: #2A4C8A;
         border-radius: 6px;
     }
     
 
     .title_cachorroquente h2{
-        color: brown;
+        color: white;
         font-family: "Pacifico";
         font-size: 1.8rem;
         font-style: italic;
@@ -165,7 +167,7 @@ html{
         margin-top: 15px;        
         margin-bottom: 4px;     
         text-align: left;
-        background-color: #F5F5DC;
+        background-color: #2A4C8A;
         border-radius: 6px;
 
 
@@ -175,7 +177,7 @@ html{
 
 
     .title_pasteis h2{
-          color: brown;
+          color: white;
         font-family: "Pacifico";
         font-size: 1.8rem;
         font-style: italic;
@@ -183,14 +185,14 @@ html{
         margin-top: 15px;        
         margin-bottom: 4px;     
         text-align: left;
-        background-color: #F5F5DC;
+        background-color: #2A4C8A;
         border-radius: 6px;
     }
 
 .title_pasteis p{
     margin-top: 0;            
         margin-bottom: 15px;      
-        color:brown;
+        color:white;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.0rem;
         text-align: left;
@@ -199,15 +201,45 @@ html{
 .adicional{
     margin-top: 0;            
         margin-bottom: 15px;      
-        color:brown;
+        color: #2A4C8A;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.0rem;
         text-align: left;
+}
 
+
+
+.icone_conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
 
 
 
 }
+
+.icone{
+    width: 60rem;
+    height: 20rem;
+}
+
+.hambúrguer_normal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.img_hamburguer{
+width: 7rem;
+height: 5rem;
+
+margin-left: auto;
+
+
+}
+
 
 
 
