@@ -1,6 +1,6 @@
 
 body {
-    background: linear-gradient(135deg, #081F4D, #1E4FA3, #2A4C8A);
+    background-color: #081F4D;
     font-family: Montserrat, sans-serif; 
     padding-top: 80px;
 }
@@ -79,7 +79,7 @@ html{
     }
 
     .filtro_container{
-        position: fixed;
+        position: sticky;
         top: 0;
         left: 0;
         width: 100%;
@@ -91,7 +91,12 @@ html{
         overflow-x: auto;
         
         padding: 10px;
-        background-color: linear-gradient(135deg, #081F4D, #1E4FA3, #2A4C8A);
+        background-color: #081F4D;
+        
+         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3),
+         0 10px 25px rgba(0, 0, 0, 0.35);
+    
+         border-bottom: 2px solid rgba(255,255,255,0.2);
 
     }
     [id] {
@@ -211,8 +216,8 @@ html{
 
 .icone_conteiner{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1,20px;
     margin: 20px 0;
 
 
@@ -220,8 +225,9 @@ html{
 }
 
 .icone{
-    width: 60rem;
-    height: 20rem;
+    width: 30rem;
+    height: 15rem;
+
 }
 
 .hambúrguer_normal{
@@ -262,6 +268,12 @@ margin-left: auto;
         text-align: left;
         background-color: #2A4C8A;
         border-radius: 6px;
+}
+.img_insta{
+    width: 1.6rem;
+    cursor: pointer;
+    transition: 0,3s;
+
 }
 
 
